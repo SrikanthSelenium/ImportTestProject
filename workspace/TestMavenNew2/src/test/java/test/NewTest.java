@@ -42,6 +42,7 @@ public class NewTest {
 		d.switchTo().window(mainwnd);
 		System.out.println(d.getTitle());
 		System.out.println("line added in eclipse");
+		System.out.println("line added in eclipse"+System.currentTimeMillis());
 		
 		
 		d.quit();		
